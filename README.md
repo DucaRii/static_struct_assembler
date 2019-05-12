@@ -5,6 +5,7 @@ edit STRUCT_NAME on line 20 to your wished name
 
 example:
 
+### main.cpp
 ```c++
 auto struct_fields = std::vector<info_entry_t>
 {
@@ -14,6 +15,7 @@ auto struct_fields = std::vector<info_entry_t>
 };
 ```
 
+### generated out.hpp
 ```c++
 struct example_t
 {
